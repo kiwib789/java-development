@@ -8,9 +8,8 @@ public class BedtimeStories {
         {
 // create a FileInputStream object pointing to
 // a specific file
-            FileInputStream fis = new FileInputStream("goldiocks.txt");
-            FileInputStream fis2 = new FileInputStream("goldiocks.txt");
-            FileInputStream fis3 = new FileInputStream("maryHadALittleLamb.txt");
+            FileInputStream fis = new FileInputStream(".src/main/resources/");
+
 // create a Scanner to reference the file to be read
             Scanner scanner = new Scanner(fis);
             String input;
